@@ -1,0 +1,29 @@
+# Rasa specific
+models/
+rasa.db
+*.tar.gz
+*.h5
+*.pkl
+*.json
+*.yaml
+*.md
+*.db
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+.env/
+__pycache__/
+
+# IDE specific
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
