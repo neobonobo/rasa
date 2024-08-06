@@ -4,9 +4,8 @@ rasa.db
 *.tar.gz
 *.h5
 *.pkl
-*.json
-*.yaml
-*.md
+
+# Ignore logs and databases
 *.db
 *.log
 
@@ -17,7 +16,7 @@ rasa.db
 # Virtual environment
 venv/
 env/
-.env/
+.venv/
 __pycache__/
 
 # IDE specific
