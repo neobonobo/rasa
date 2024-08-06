@@ -4,6 +4,7 @@ rasa.db
 *.tar.gz
 *.h5
 *.pkl
+.rasa
 
 # Ignore logs and databases
 *.db
