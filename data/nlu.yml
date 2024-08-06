@@ -17,6 +17,20 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: ask_tahini_price
+  examples: |
+    - How much is the tahini?
+    - What's the price of tahini?
+    - How much does tahini cost?
+    - Can you tell me the price of tahini?
+
+- intent: buy_tahini
+  examples: |
+    - I want to buy tahini
+    - I would like to purchase some tahini
+    - Can I buy tahini?
+    - I need to order tahini
+
 - intent: goodbye
   examples: |
     - cu

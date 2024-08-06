@@ -2,6 +2,18 @@ version: "3.1"
 
 stories:
 
+- story: greet and ask tahini price
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tahini_price
+  - action: utter_tahini_price
+
+- story: buy tahini
+  steps:
+  - intent: buy_tahini
+  - action: utter_confirm_purchase
+
 - story: happy path
   steps:
   - intent: greet

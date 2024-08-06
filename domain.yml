@@ -8,8 +8,16 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_tahini_price
+  - buy_tahini
 
 responses:
+  utter_tahini_price:
+    - text: "Our tahini is $10 per jar."
+
+  utter_confirm_purchase:
+    - text: "Great! You can place your order on our website or call us at [your phone number]."
+
   utter_greet:
   - text: "Hey! How are you?"
 
