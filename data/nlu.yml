@@ -9,13 +9,26 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - moin
     - hey there
-    - let's go
-    - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+
+- intent: ask_tahini_availability
+  examples: |
+    - Do you have tahini?
+    - Can I get tahini here?
+    - Is tahini available?
+    - Do you sell tahini?
+
+- intent: ask_tahini_availability_tr
+  examples: |
+    - Tahin var mı?
+    - Tahin satıyor musunuz?
+    - Burada tahin bulabilir miyim?
+    - Tahin mevcut mu?
+    - Tahin var mı?
+    - Elinizde tahin var mı?
 
 - intent: ask_tahini_price
   examples: |
@@ -24,12 +37,22 @@ nlu:
     - How much does tahini cost?
     - Can you tell me the price of tahini?
 
+- intent: ask_tahini_price_tr
+  examples: |
+    - Tahin ne kadar?
+    - Tahin fiyatı nedir?
+
 - intent: buy_tahini
   examples: |
     - I want to buy tahini
     - I would like to purchase some tahini
     - Can I buy tahini?
     - I need to order tahini
+
+- intent: buy_tahini_tr
+  examples: |
+    - Tahin satın almak istiyorum
+    - Tahin almak istiyorum
 
 - intent: goodbye
   examples: |
@@ -93,8 +116,6 @@ nlu:
     - unhappy
     - not good
     - not very good
-    - extremly sad
-    - so saad
     - so sad
 
 - intent: bot_challenge
@@ -103,3 +124,4 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+

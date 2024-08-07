@@ -9,33 +9,56 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask_tahini_price
+  - ask_tahini_price_tr
   - buy_tahini
+  - buy_tahini_tr
+  - ask_tahini_availability
+  - ask_tahini_availability_tr
 
 responses:
-  utter_tahini_price:
-    - text: "Our tahini is $10 per jar."
+  utter_ask_tahini_price:
+    - text: "Our tahini is 300 TL per jar."
 
-  utter_confirm_purchase:
-    - text: "Great! You can place your order on our website or call us at [your phone number]."
+  utter_ask_tahini_price_tr:
+    - text: "Tahin fiyatımız 660cc'lik kavanoz için 300 liradır."
+
+  utter_buy_tahini:
+    - text: "Great! You can place your order on https://www.shopier.com/koycebiz."
+
+  utter_buy_tahini_tr:
+    - text: "Harika! https://www.shopier.com/koycebiz linkinden satın alabilirsiniz."
+
+  utter_ask_tahini_availability:
+    - text: "Yes, we have tahini available."
+
+  utter_ask_tahini_availability_tr:
+    - text: "Evet, tahinimiz mevcut."
 
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
+    - text: "Merhaba! Nasılsınız?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "İşte sizi neşelendirecek bir şey:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
+    - text: "Bu size yardımcı oldu mu?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
+    - text: "Harika, devam edin!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
+    - text: "Hoşça kal"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
+    - text: "Ben bir botum, Rasa tarafından destekleniyorum."
 
 session_config:
   session_expiration_time: 60

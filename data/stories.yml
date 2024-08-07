@@ -7,12 +7,34 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: ask_tahini_price
-  - action: utter_tahini_price
+  - action: utter_ask_tahini_price
+
+- story: ask tahini price in Turkish
+  steps:
+  - intent: ask_tahini_price_tr
+  - action: utter_ask_tahini_price_tr
 
 - story: buy tahini
   steps:
   - intent: buy_tahini
-  - action: utter_confirm_purchase
+  - action: utter_buy_tahini
+
+- story: buy tahini in Turkish
+  steps:
+  - intent: buy_tahini_tr
+  - action: utter_buy_tahini_tr
+
+- story: greet and ask if tahini is available
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tahini_availability
+  - action: utter_ask_tahini_availability
+
+- story: ask if tahini is available in Turkish
+  steps:
+  - intent: ask_tahini_availability_tr
+  - action: utter_ask_tahini_availability_tr
 
 - story: happy path
   steps:
